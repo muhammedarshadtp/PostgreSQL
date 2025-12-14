@@ -19,20 +19,35 @@
 
 -- SELECT * FROM bike;
 
---           ADD COLUMN IN TABLE
-
--- ALTER TABLE bike ADD color VARCHAR(225);
-
--- SELECT * FROM bike;
-
 --             UPDATE ROWS IN TABLE(it effect all the rows datas)
 
 -- UPDATE bike SET color='red';
 
 -- SELECT * FROM bike;
 
---           if we user WHERE specifically rows effect 
+--           if we user WHERE specifically single-rows  effect 
 
 -- UPDATE bike SET color='black' WHERE brand='KTM';
 
 -- SELECT * FROM bike;
+
+--           ADD COLUMN IN TABLE
+
+-- ALTER TABLE bike ADD color VARCHAR(225);
+
+-- SELECT * FROM bike;
+
+--             DROP COLUMN IN TABLE
+
+-- ALTER TABLE bike DROP COLUMN color;
+
+
+--                 Less Than and Greater Than   
+
+SELECT * FROM bike WHERE year > 2022;
+
+SELECT * FROM bike WHERE year < 2022;
+
+
+
+
