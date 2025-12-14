@@ -42,11 +42,25 @@
 -- ALTER TABLE bike DROP COLUMN color;
 
 
---                 Less Than and Greater Than   
+--                 Less Than, Greater Than,Equal case,Not Equal,LIKE,ILIKE(case insensitive),OR,BETWEEN,
 
-SELECT * FROM bike WHERE year > 2022;
+-- SELECT * FROM bike WHERE year > 2022;
 
-SELECT * FROM bike WHERE year < 2022;
+-- SELECT * FROM bike WHERE year < 2022;
+
+
+-- SELECT * FROM bike WHERE year <= 2022;
+
+-- SELECT * FROM bike WHERE year != 2023;
+
+-- SELECT * FROM bike WHERE model LIKE 'M%'
+
+-- SELECT * FROM bike  WHERE brand ='KTM' AND YEAR =2023;
+
+-- SELECT * FROM bike  WHERE brand ='KTM' OR YEAR =2022;
+
+-- SELECT * FROM bike  WHERE year BETWEEN 2022 AND 2023;
+
 
 
 
